@@ -36,3 +36,165 @@
     transform: rotate(360deg);
   }
 }
+form{
+  margin: 10px;
+  padding: 10px;
+}
+/* navbar */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(
+    to top,
+    rgba(105, 158, 255, 0.411) 40%,
+    #fffbf9 100%
+  );
+}
+@media (max-width: 640px) {
+  .container-fluid {
+    display: inline-block;
+    background-color: rgb(221, 221, 221);
+  }
+}
+
+.container-fluid {
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background: rgba(137, 192, 255, 0.884);
+  border: 1px solid rgba(0, 0, 0, 0.658);
+}
+.nav-link:hover {
+  background: linear-gradient(
+    to top,
+    rgba(105, 158, 255, 0.411) 40%,
+    #fffbf9 100%
+  );
+  color: black;
+}
+
+
+
+
+/* footer */
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: linear-gradient(to top, rgba(105, 158, 255, 0.411)40%, #fffbf9 100%);
+
+position: relative;
+}
+.footer-cta {
+border-bottom: 1px solid  #1466ffe5;
+}
+.single-cta i {
+color: #1466ffe5;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #000000bd;
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #000000e8;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+  
+}
+.footer-text p {
+margin-bottom: 16px;
+font-size: 14px;
+    color: #000000;
+line-height: 28px;
+}
+
+.footer-social-icon a {
+color: #ffffff;
+font-size: 18px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.facebook-bg:hover{
+background-color: #585858b4;
+}
+.google-bg{
+background: #DD4B39;
+}
+.google-bg:hover{
+  background-color: #585858b4;
+  }
+.instagram-bg{
+background: #ce0060;
+}
+.instagram-bg:hover{
+  background-color: #585858b4;
+  }
+.whatsapp-bg{
+background: rgba(0, 168, 65, 0.863);
+}
+.whatsapp-bg:hover{
+  background-color: #585858b4;
+  }
+.footer-widget-heading h3 {
+color: #000000ce;
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 70px;
+background: #1466ff;
+}
+
